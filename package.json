@@ -1,0 +1,29 @@
+{
+  "name": "tuot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsc && node ./build/main.js",
+    "start": "node ./build/main.js"
+  },
+  "keywords": [
+    "osint",
+    "tool",
+    "javascript",
+    "search"
+  ],
+  "author": "OW Member",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dns": "^0.2.2",
+    "node-fetch": "^3.3.2",
+    "readline": "^1.3.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.5"
+  }
+}
